@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+
+        <div class="total">
+            <span class="amount">100</span>
+        </div>
+        <div class="inputs">
+            <input id="title" type="text" placeholder="Title">
+            <input id="price" type="number" placeholder="Price">
+            <input type="date" name="Date" id="date">
+            <input id='addBtn' type="button" value="Add Expense">
+        </div>
+        <div class="expenses">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Title</td>
+                        <td>Date</td>
+                        <td>Price</td>
+                        <td>Action</td>
+                    </tr>
+
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Buy milk</td>
+                        <td>22 March</td>
+                        <td>85</td>
+                        <td><button>Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
